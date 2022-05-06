@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="grid.css">
+    <script src="https://kit.fontawesome.com/522fd497c9.js" crossorigin="anonymous"></script>
+    <style>
+        /* font-size */
+        #name {
+            /* border: 1px solid blue; */
+            font-size: 40px;
+            color: #1a2f3d;
+        }
+
+        #name-thai {
+            font-size: 20px;
+            color: #9f6daa;
+        }
+
+        #sec2 span a {
+            text-align: justify;
+            color: aliceblue;
+            /* border: 1px solid blue; */
+            width: 300px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <aside class="item" id="side">
+
+            <div class="profile">
+                <img src="pic-pro2.JPG" alt="PICTURE PROFILE" id="pic_profile">
+            </div>
+            <hr><br>
+            <div class="side-info" style="text-align:start;">
+                <h2>Profile</h2>
+                <p>กำลังจะจบการศึกษา(รอ Transcript) จากสาขาวิทยาการคอมพิวเตอร์ มหาวิทยาลัยศิลปากร
+                    สนใจหางานด้าน Web Developer พร้อมที่จะเรียนรู้ทักษะใหม่ๆ
+                </p>
+
+            </div><br>
+            <hr><br><br>
+            <div class="skill">
+
+                <ul type="circle" id="ul_skill">
+                    <h2><i class="fa-solid fa-code"></i>&nbsp;Skill</h2>
+                    <!-- มีประสบการณ์ -->
+                    <br>
+                    <li id="sub_skill1">
+
+                        <h4>มีประสบการณ์</h4>
+                    </li>
+                    <ol class="order">
+                        <li>
+                            <p><i>C</i></p>
+                        </li>
+                        <li>
+                            <p><i>Java</i></p>
+                        </li>
+                        <li>
+                            <p><i>C++(Arduino)</i></p>
+                        </li>
+                    </ol>
+                    <!-- คุ้นเคย -->
+                    <br>
+                    <li id="sub_skill2">
+                        <h4>คุ้นเคย</h4>
+                    </li>
+                    <ol class="order">
+                        <li>
+                            <p><i>html</i></p>
+                        </li>
+                        <li>
+                            <p><i>css</i></p>
+                        </li>
+
+                    </ol>
+                </ul>
+            </div>
+            <hr>
+            <div class="interest">
+
+                <ul type="circle" id="num_interest">
+                    <h2>
+                        <pre><i class="fa-solid fa-briefcase"></i>Interests</pre>
+                    </h2>
+                    <li>
+                        <p><i>backend developer</i></p>
+                    </li>
+                    <li>
+                        <p><i>frontend developer</i></p>
+                    </li>
+                </ul>
+            </div>
+
+        </aside>
+
+        <!--Name -->
+        <section id="sec1" class="item">
+            <p id="name">Nattapong Soponwattana</p>
+            <p id="name-thai">นายณัฐพงศ์ โสภณวัฒนะ</p>
+            <hr style="width: 210px;">
+        </section>
+        <!-- Link-Social -->
+        <section id="sec2" class="item-info">
+
+            <span style="color: aliceblue;" id="mail"><i
+                    class="fa-solid fa-envelope"></i>&nbsp;&nbsp;nattapong_soponwattana@hotmail.com</span>
+            <span><i class="fa-solid fa-mobile-screen-button"></i>&nbsp;&nbsp;084-663-9373</span>
+            <span id="phone"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;20/24 ถ.ท้ายบ้าน จ.สมุทรปราการ ไทย</span>
+
+            <span id="linkedin"><a href="https://www.linkedin.com/in/nattapong-soponwattana-46b520186" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i>&nbsp;&nbsp;https://www.linkedin.com/in/nattapong-soponwattana-46b520186</a></span>
+            <span id="medium"><a href="https://medium.com/@nattapongsoponwattana" target="_blank"><i
+                        class="fa fa-medium"
+                        aria-hidden="true"></i>&nbsp;https://medium.com/@nattapongsoponwattana</a></span>
+        </section>
+
+
+        <section id="sec3" class="item">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span style="font-size: xx-large;"> <b>EDUCATION</b></span>
+            <hr style="width: 650px;">
+            <p style="font-size: x-large;"><b>Bachelor of Science Program in Computer Science</b></p>
+            <p style="font-size: larger"><b>Silpakorn University</b></p>
+            <span style="font-size: larger;">graduate 2022</span>
+            <p>gpa 2.31</p>
+
+
+        </section>
+
+        <section id="sec4" class="item">
+            <i class="fa-solid fa-certificate"></i>
+            <span style="font-size: xx-large;"><b>CERTIFICATES</b></span>
+            <hr style="width: 650px;">
+
+            <ol style="margin-left: 1rem;">
+                <li style="font-size: x-large;">
+                    <p>การสร้าง LINE Sticker และการเป็น LINE Creater 2021</p>
+                </li>
+                <ul>
+                    <li style="text-align: justify; margin-left: 1rem; font-size: larger;">
+                        <p>วันที่ 15-16 พฤษภาคม คณะวิทยาศาสตร์ มหาวิทยาลัยศิลปากร</p>
+                    </li>
+                </ul><br>
+                <li style="font-size: x-large;">
+                    <p>PHP Laravel 5 Framework</p>
+                </li>
+                <ul>
+                    <li style="text-align: justify; margin-left: 1rem; font-size: large;">
+                        <p>วันที่ 20 -21 พฤษภาคม คณะวิทยาศาสตร์ มหาวิทยาลัยศิลปากร</p>
+                    </li>
+                </ul>
+
+            </ol>
+
+
+        </section>
+
+        <section id="sec5" class="item">
+            <i class="fa-solid fa-list-check"></i>
+            <span style="font-size: xx-large;"><b> PERSONAL PROJECTS </b></span>
+            <hr style="width: 650px;">
+
+            <ol style="margin-left: 1rem;">
+                <li style="font-size: x-large;">
+                    <p style="font-size: x-large;">ระบบควบคุมก๊าซคาร์บอนไดออกไซด์สำหรับปลูกพืชระบบปิด(โปรเจคจบ)</p>
+                </li>
+                <ul>
+                    <li style="text-align: justify; margin-left: 2rem; font-size: larger;">&nbsp ควบคุมปริมาณก๊าซ Co2
+                        ผ่านบอร์ดไมโครคอนโทรลเลอร์ ESP32 สื่อสารผ่าน protocol MQTT</li>
+                </ul><br>
+                <li style="font-size: x-large;">
+                    <p>ระบบสนับสนุนการตัดสินใจเลือกซื้อระบบภาพยนตร์</p>
+                </li>
+                <ul>
+                    <li style="text-align: justify; margin-left: 2rem; font-size: larger;">&nbsp เป็น mobile application
+                        ที่สร้างโดยเว็บไซต์ Thunkable</li>
+                </ul>
+            </ol>
+
+        </section>
+
+        <section id="sec6" class="item">
+            <i class="fa-solid fa-briefcase"></i>
+            <span style="font-size: xx-large;"><b>WORK EXPERIENCE</b></span>
+            <hr style="width: 650px;">
+            <ol style="margin-left: 1rem;">
+                <li style="font-size: x-large;">
+                    <p>การนำเสนอโมเดลธุรกิจใหม่ด้านนวัตกรรม ส่วนหนึ่งของ รายวิชา Innovative Startup Entrepreneurship for
+                        Scientists </p>
+                </li>
+                <ul>
+                    <li style="text-align: justify; margin-left: 2rem; font-size: larger;">&nbsp รางวัลรองชนะเลิศอันดับ
+                        2 ชื่อผลงาน drink for health เกี่ยวกับ กระบอกน้ำ อัจฉริยะ</li>
+                </ul><br>
+                <li style="font-size: x-large;">
+                    <b></b>
+                    <p>Staff โครงการ BuildDev : Building the Modern Software Development Team เพาะกล้า
+                        สร้างนักพัฒนาซอฟต์แวร์รุ่นใหม่</p>
+                </li>
+
+                <ul>
+                    <li style="text-align: justify; margin-left: 2rem; font-size: larger;">&nbsp จัดโดยทางคณะ</li>
+                </ul><br>
+                <li style="font-size: x-large;">
+                    <p>CPSU HACK DAY : FACE PAY in My School(2020)</p>
+                </li>
+                <ul>
+                    <li style="text-align: justify; margin-left: 2rem; font-size: larger;">&nbsp เป็น Team Staff</li>
+                </ul>
+            </ol>
+
+
+
+
+
+
+
+
+            <!--             
+            <ol style="margin-left: 1rem;">
+                <li style="font-size: x-large;">
+                    <p style="font-size: x-large;">การนำเสนอโมเดลธุรกิจใหม่ด้านนวัตกรรม ส่วนหนึ่งของ
+                        รายวิชา Innovative Startup Entrepreneurship for
+                        Scientists</p>
+                </li>
+                <ul>
+                    <li style="text-align: justify; margin-left: 2rem; font-size: large;">&nbsp รางวัลรองชนะเลิศอันดับ 2 ชื่อผลงาน drink for health เกี่ยวกับ
+                        กระบอกน้ำ อัจฉริยะ</li>
+                </ul><br>
+                <li style="font-size: x-large;">
+                    <p style="font-size: x-large;">Staff โครงการ BuildDev : Building the Modern Software
+                        Development Team เพาะกล้า สร้างนักพัฒนาซอฟต์แวร์รุ่น
+                        ใหม (01/2020 - 03/2020)</p>  
+                </li>
+                <ul>
+                    <li style="text-align: justify; margin-left: 2rem; font-size: large;">&nbsp จัดโดยทางคณะ</li>
+                </ul><br>
+                <li style="font-size: x-large;">
+                    <p style="font-size: x-large;">CPSU HACK DAY : FACE PAY in My School(2020)</p>
+                </li>
+                <ul>
+                    <li style="text-align: justify; margin-left: 2rem;font-size: large;">&nbsp เป็น Team Staff</li>
+                </ul>
+            </ol>
+
+             -->
+        </section>
+
+
+    </div>
+
+</body>
+
+</html>
